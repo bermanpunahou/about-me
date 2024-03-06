@@ -1,0 +1,71 @@
+/* Variable declarations */
+:root {
+    /* Healthbar */
+  --healthValue;
+  --healthColor;
+
+  /* Inventory */
+  --markers;
+  --snacks;
+}
+
+.healthBar {
+    background-color: var(--healthColor);
+    width: var(--healthValue);
+    text-align: center;
+  }
+
+
+/* Style for rest of the page */
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.card {
+    width: 150px;
+}
+
+.jumbotron {
+    background-color: antiquewhite;
+}
+
+.row {
+    height: auto;
+}
+
+.button {
+    background-color: antiquewhite;
+}
+
+.btn-outline-white {
+    color: black;
+}
+
+#picbox {
+    background-color: aquamarine;
+}
+
+#box-a {
+    background-color: #2e294e;
+    color: white;
+}
+
+#box-b {
+    background-color: lightblue;
+    
+}
+
+#box-c {
+    background-color: lightcoral;
+    
+}
+
+#box-d {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Below all related to pages other than index.html */
+
