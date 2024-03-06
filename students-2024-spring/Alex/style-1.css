@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: auto;
+}
+
+#picbox {
+    background-color: darkmagenta;
+}
+
+#box-a {
+    background-color: darkmagenta;
+}
+
+#box-b {
+    background-color:  darkmagenta;
+}
+
+#box-c {
+    background-color: violet;
+}
+
+#box-d {
+    background-color: darkmagenta;
+}
+
+#box-e {
+    background-color: darkmagenta;
+}
+
+#box-f {
+    background-color: violet;
+}
+
+#box-g {
+    background-color: violet;
+}
+
+#box-a {
+    color: white;
+}
+
+#box-b {
+    color: white;
+}
+
+#box-c {
+    color: white;
+}
+
+#box-d {
+    color: white;
+}
+
+#box-e {
+    color: white;
+}
+
+#box-f {
+    color: white;
+}
+
+#box-g {
+    color: white;
+}
+
+#box-c {
+    height: 50px;
+}
+
+#box-d {
+    height: 50px;
+}
+
+div {
+    font-family: fantasy;
+}
+
+div {
+   columns: ;height: 30;
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- Linking our own stylesheet here, followed by a Bootstrap stylesheet -->
+    <link href="kynion.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+        <!-- Row with two columns -->
+        <div class="row">
+            <div id="box-b" class="col-sm-6">
+                This is my About Me Page for my computer science class. I took this class because coding is a skill that is useful for many different jobs. Some basic info about my is that my name is Datta and that my birthday is on December 27, 2007. I live in Kaneohe and am a sophomore at Punahou School.
+            </div>
+            <div id="box-c" class="col-sm-6">
+                I was born in North Carolina in Charlotte, then moved to South Carolina when I was around 2. After that I moved to Florida then Cailfornia then Hawaii. When I was in 3rd grade, I moved to Germany for five years then back to Hawaii which is where I live now. The reason my family moves a lot is because my dad is in the millitary.
+            </div>
+        </div>
+
+        <!-- Row with three columns with picture in middle column -->
+        <div class="row">
+            <div id="box-d" class="col-sm-4">
+                In my family there is my mom, dad, and younger brother who also attends Punahou. My mom was born in India and grew up in South Carolina and my dad was born in Japan and grew up in Florida. I am very thankful for my family and everything they do for me.
+            </div>
+            <div id="box-e" class="col-sm-4">
+                <img src="pictures/familypic2.png" height="300px" class="mx-auto d-block">
+            </div>  
+            <div id="box-f" class="col-sm-4">
+                The picture on the right is my family on the right of the picture and my mom's brother family on the left of the picture with my grandmother in the middle. We are at my grandmother's flat in Waikiki and it was taken when my mom's brother family visited Hawaii from South Carolina over Christmas break.
+            </div>
+        </div>
+
+        <!-- Row with three columns with carousel in middle column -->
+        <div class="row">
+            <div id="box-g" class="col-sm-4">
+               I do cross country in the fall and track in the spring. Additionally I am in the beekeeping, chess, and cyber club. Outside of school I take piano and I'm also in a Boy Scout troop where we do a lot of camping and hiking. On the weekends, I like going to the mall or Dave and Busters with my friends.
+            </div>
+            <div id="box-j" class="col-sm-4">
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-
+                ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                  </div>
+                
+                  <!-- The slideshow/carousel -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="pictures/pizza.jpg" alt="Cheese Pizza" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="pictures/curry.jpg" alt="Japanese chicken curry" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="pictures/yogurt.jpg" alt="Frozen yogurt" class="d-block w-100">
+                    </div>
+                  </div>
+                
+                  <!-- Left and right controls/icons -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+            </div>  
+            <div id="box-h" class="col-sm-4">
+                One fun fact about me is that I hate cloudy and rainy days. They always seem really depressing and sad compared to sunny days. My favorite foods are chesse pizza, Japanese chicken curry, and frozen yogurt and my least favorites are rasins and apple juice. There is a slideshow of my favorite foods shown on the left.
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <div id="Nav" class="container-flexible">
+            <nav class="navbar navbar-expand-sm bg-yellow navbar-dark">
+              <ul class="navbar nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://www.punahou.edu" style="color: #DCCCBB; font-weight: bold">My School's Website</a>
+                  </li>
+                      <a class="nav-link" href="https://www.youtube.com" style="color: #DCCCBB; font-weight: bold">YouTube</a>
+                  </li>
+                      <a class="nav-link" href="https://aikahiparkshoppingcenter.com/tenant/bostons-pizza-aikahi" style="color: #DCCCBB; font-weight: bold">Best Pizza On the Island</a>
+              </ul>
+          </div>
+        </nav>
+
+    <!-- Javascript required by Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+
+</html>

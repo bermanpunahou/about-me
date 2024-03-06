@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- My own javascript file -->
+    <script src="script.js"></script>
+
+    <!-- Linking the Bootstrap stylesheet here, followed by my own stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <a class="btn btn-outline-light" href="http://google.com" role="button" style="color: darkslategray;">
+        Click here for Google :)
+    </a>
+
+    <!-- We will put our 2x2 table here -->
+    <div class="container-fluid">
+        
+        <!-- First, we build a row across, with two columns -->
+        <div class="row">
+            <div id="box-a" class="col-sm-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <div id="box-b" class="col-sm-6">
+                Cupcake ipsum dolor sit amet ice cream oat cake biscuit jelly beans. Icing toffee jelly-o brownie jelly danish. Liquorice marzipan oat cake jujubes oat cake. Toffee jujubes candy canes cake chocolate pastry jelly. Lemon drops cookie gingerbread pastry shortbread. Candy canes candy lemon drops gingerbread pudding toffee. Marshmallow halvah tootsie roll muffin apple pie carrot cake. Marzipan tootsie roll icing ice cream toffee jelly-o. Cake jelly-o pudding candy canes carrot cake biscuit bonbon chupa chups fruitcake. Pudding bonbon lemon drops marzipan shortbread cheesecake. Danish pudding apple pie cake carrot cake brownie. Tiramisu powder oat cake candy liquorice chupa chups. Sesame snaps donut danish macaroon muffin gummi bears wafer marshmallow jelly.
+            </div>
+        </div>
+
+        <!-- Build another row below, also with two columns -->
+        <div class="row">
+            <div id="box-c" class="col-sm-4">
+                Pokem ipsum dolor sit amet Flamethrower Cherubi excepteur sint occaecat cupidatat non proident Druddigon Calcium Oddish. Mineral Badge Hitmonlee Ariados Phione Leavanny Rising Badge Bonsly. Volcano Badge Escape Rope Pokemon, it's you and me Ludicolo Charmeleon Leech Seed Golett. Dig Staryu Seaking Missingno Wobbuffet Budew Ninetales. Cascade Badge Gothitelle Pokedex Ferroseed Dragon Tynamo Poochyena.
+            </div>
+            <div class="col-sm-4 stats justify-content-center align-items-center">
+                <br/>
+                <div class="row">
+                    <div class="healthBar">Energy</div>
+                </div>
+                <br/>
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <button type="button" class="btn btn-outline-danger" onclick="changeHealth(-10)">Exertion</button>
+                    </div>
+                    <div class="col-sm-6 align-items-center">
+                        <button class="btn btn-outline-success" onclick="changeHealth(10)">Powerup</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="box-d" class="col-sm-4">
+                Bowsprit crack Jennys tea cup fore coxswain splice the main brace crimp ballast brig bilge crow's nest. Hogshead wherry execution dock crack Jennys tea cup American Main killick booty hardtack fathom quarterdeck. Shrouds hang the jib hempen halter Chain Shot provost scurvy doubloon fluke cackle fruit fire ship.
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <div class="inventory">
+                    <h2>Inventory</h2>
+            
+                </div>
+            </div>
+            <div class="col-sm-6 text-center">
+                <div class="stock-up">
+                    <h2>Stock Up!</h2>
+                    <button id="btn" class="btn btn-primary" onclick="addMarkers">btn</button>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- <div class="stats">
+        <div class="healthBar">healthbar</div>
+        <br>
+        <div class="center">
+            <button class="injury" onclick="changeHealth(-10)">Kick</button>
+            <button class="injury" onclick="changeHealth(-10)">Punch</button>
+            <button class="heal" onclick="changeHealth(10)">Heal</button>
+        </div>
+    </div> -->
+    
+    <br/>
+
+    <!-- Javascript required by Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+
+</html>

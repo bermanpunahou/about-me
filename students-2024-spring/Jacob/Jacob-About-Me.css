@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: auto;
+}
+
+#box-a {
+    background-color: #F79F79;
+}
+
+#box-b {
+    background-color: #F7D08A;
+}
+
+#box-c {
+    background-color: #E3F09B;
+}
+
+#box-d {
+    background-color: #87B6A7;
+}
+
+#box-e {
+    background-color: #C0B9DD;
+}
+
+div {
+    color: #2F6690;
+}
+

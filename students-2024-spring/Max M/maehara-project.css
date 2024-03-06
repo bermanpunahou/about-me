@@ -1,0 +1,37 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+    color: white;
+    background-color: #1C1C1C;
+}
+#table_of_contents{
+    font-size: 20px;
+}
+#title{
+    font-size: 75px;
+    font-weight: bold;
+}
+.carousel-item{
+    overflow: hidden;
+    max-height: 760px;
+}
+body{
+    max-height: 100px;
+}
+#card{
+    height: 585px;
+    width:500px;
+    padding-right: 30px;
+    padding-top: 90px;
+}
+.col-5{
+    overflow: hidden;
+}
+h4{
+    color: white;
+}
+p{
+    text-align: left;
+    text-indent: 30px;
+    padding-left: 30px;
+}

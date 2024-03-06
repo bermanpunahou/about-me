@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: auto;
+}
+
+.test {
+    font-size: 40px;
+    
+}
+
+.test2 {
+    font-size: 18px;
+}
+
+.blue-box {
+    background-color: #046E8F;
+    color:#046E8F ;
+    
+}
+
+.Cream-box {
+    background-color:#F4E9CD ;
+    color: #F4E9CD;
+}
+
+
+
+.carousel-item {
+    max-height: 235px;
+    
+}
+
+
+#box-a {
+    background-color: #046E8F;
+}
+
+#box-b {
+    background-color:#183446;
+    
+}
+
+#box-c {
+    background-color:#889696;
+}
+
+#box-d {
+    background-color:#183446;
+}
+
+#box-e {
+    background-color: #575A5E;
+
+}
+
+#box-f {
+    background-color:#889696 ;
+    padding: 0%;
+}
+
+#box-g {
+    background-color:#575A5E ;
+}
+
+
+div {
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+#box-c .btn {
+    width: 100%;
+    margin-top: 15px;
+    color: whitesmoke;
+    background-color: #BCA371;
+    font-weight: bolder;
+}

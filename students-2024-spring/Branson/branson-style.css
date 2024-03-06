@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: 150px;
+}
+
+.container-fluid {
+    color: #080F0F;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: #080F0F;
+    color:white;
+}
+
+#box-a {
+    background-color:#679436;  
+}
+
+#box-b {
+    background-color:#D1BBDD;
+}
+
+#box-c {
+    background-color:cornflowerblue
+}
+
+#box-d {
+    background-color:#F9FBB2;
+}
+
+#box-e {
+    background-color: coral;
+}
+
+#box-f {
+    background-color: violet;
+}
+
+#box-g {
+    background-color:#FFA9A3;
+}
+
+#pic1 {
+    background-color: #080F0F;
+}

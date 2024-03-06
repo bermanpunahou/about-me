@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: auto;
+}
+
+#picbox {
+    background-color: aquamarine;
+}
+
+#box-a {
+    background-color: lightgreen;
+}
+
+#box-b {
+    background-color: lightblue;
+}
+
+#box-c {
+    background-color: lightcoral;
+}
+
+#box-d {
+    background-color: lightgoldenrodyellow;
+}
+
+#box-e {
+    background-color: lightpink
+}
+
+#box-f {
+    background-color: lightseagreen
+}
+
+#box-g {
+    background-color: lemonchiffon
+}

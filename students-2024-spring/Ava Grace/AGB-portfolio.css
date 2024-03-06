@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+  color: #f6f5f7;
+  font-family: garamond;
+}
+.row {
+    height: auto;
+}
+
+#picbox {
+    background-color: aquamarine;
+}
+
+#aboutme {
+  background-color: #7295a3;
+}
+
+#why {
+  background-color: #847394;
+}
+
+#goals {
+  background-color: #847394;
+}
+
+#hobby {
+  background-color: #7295a3;
+}
+
+#heading {
+  color: black;
+}

@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: 200px
+}
+
+#picbox {
+    background-color: #FFC6D9;
+}
+
+div {
+    color:#F0EAD6;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#box-a {
+    background-color: #FFE1C6;
+    color: black;
+}
+
+#box-b {
+    background-color: #FFF7AE;
+    color: black;
+}
+
+#box-c {
+    background-color: #48284A;
+}
+
+#box-d {
+    background-color: #916C80;
+}
+#box-e {
+    background-color: #3F612D;
+}
+#box-f {
+    background-color: #D36135;
+}
+#box-g {
+    background-color: #FFC6D9;
+}
+#box-h {
+    background-color: #885053;
+}
+#collapsible {
+    height: 200%;
+    width: 200%;
+    color: black;
+}
+
+#Nav {
+    background-color: palevioletred;
+    color: black;
+}
