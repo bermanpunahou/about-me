@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Linking our own stylesheet here, followed by a Bootstrap stylesheet -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="display-4 text-center border border-dark border-5 rounded">
+            This is what a Jumbotron looks like :)
+        </div>
+    </div>
+    
+    <div class="container-fluid text-center text-wrap">
+        <div class="row">
+            <div id="box-a" class="col-sm-6 d-flex align-items-center border border-dark border-5 rounded">
+                Hello, and welcome to my page! As you explore this site, you'll find lots of projects that I've created as part of my Intro to Computer Science class. 
+            </div>
+            <div id="box-b" class="col-sm-6">
+                <div class="row">
+                    <div id="picbox" class="col-sm-3 d-flex align-items-center justify-content-center border border-dark border-5 rounded">
+                        <!-- This image will only appear if you have something with this name in the same folder as this file. -->
+                        <img src="SB.png" height="50px">
+                    </div>
+                    <div class="col-sm-9 d-flex align-items-center border border-dark border-5 rounded">
+                        First, a bit about me: My name is Ms. Berman, and I'm a teacher at Punahou School in Honolulu. I am origianlly from Boston, but I've lived in Hawaii for nearly 4 years now. (Wow, that's hard for me to believe!)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="box-c" class="col-sm-6 d-flex align-items-center border border-dark border-5 rounded">
+                Intro to Computer Science is a class that introduces students to the basic concepts in computer science through artistic projects.
+                For example, students work on their own web pages, creating visual art pieces, even composing music!
+            </div>
+            <div id="box-d" class="col-sm-6 d-flex align-items-center border border-dark border-5 rounded">
+                Click on the buttons to see some of my favorite projects from this class:
+                <button>
+                    <a href="mondrian.html">Mondrian Imitations</a>
+                </button>
+                <button>
+                    <a href="pattern.html">Computational Art!</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript required by Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
