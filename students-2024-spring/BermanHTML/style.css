@@ -24,6 +24,12 @@ html {
     background-color: antiquewhite;
 }
 
+/* .p5js {
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+} */
+
 .card {
     width: 150px;
 }
